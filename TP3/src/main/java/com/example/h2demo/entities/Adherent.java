@@ -7,6 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Adherent {
+	
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
